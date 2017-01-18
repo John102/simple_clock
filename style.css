@@ -1,0 +1,43 @@
+html, body {
+	background-color: #000;
+	font-family: 'Verdana';
+}
+
+#overall {
+	margin: 250px auto 10px auto;
+	width: 500px;
+	background-color: #d5dfb2;
+	border: 10px solid #778f23;
+	border-radius: 20px;
+	color: #778f23;
+	padding: 10px;
+}
+
+#clock {
+	font-size: 50px;
+	text-align: center;
+}
+
+#day {
+	font-size: 20px;
+	text-align: center;
+}
+
+#datum {
+	font-size: 15px;
+	text-align: center;
+}
+
+#spons {
+	font-size: 10px;
+	color: #b9c491;
+	text-align: center;
+	margin-top: 20px;
+}
+a {
+	text-decoration: none;
+}
+a:link		{	color: #778f23;		}
+a:visited	{	color: #778f23;		}
+a:active	{	color: #778f23;		}
+a:hover		{	color: #ffffff;		}
