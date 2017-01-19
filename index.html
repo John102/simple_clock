@@ -3,7 +3,7 @@
 <html lang="en">
 
 	<head>
-		<title>Template 0.1</title>
+		<title>Digital Clock 0.1</title>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" 	content="ID=edge" />
 		<meta name="viewport"				content="width=device-width, initial-scale=1" />
@@ -12,22 +12,31 @@
 		<meta name="keywords"				content="" />
 		
 		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet"> 
 
 		<script src="jLib.js"></script>
 
 	</head>
 	<body>
 
-		<div id="overall">
+		<div id="overall" class="red">
 			<div id="clock"></div>
 			<div id="day"></div>
 			<div id="datum"></div>
 			<div id="spons">
 				
 				This clock is brought to you by John van den Elzen<br />
-				Check <a target="blank" href="http://www.digi-xp.com/">www.digi-xp.com</a> for more information.
+				Check <a target="blank" href="http://www.digi-xp.com/">www.digi-xp.com</a> for more information
 
 			</div>
+		</div>
+
+		<div id="color-swapper">
+			<button class="red" 	onclick="changeTheme('red')"></button>
+			<button class="green" 	onclick="changeTheme('green')"></button>
+			<button class="purple" 	onclick="changeTheme('purple')"></button>
+			<button class="orange" 	onclick="changeTheme('orange')"></button>
+			<button class="blue" 	onclick="changeTheme('blue')"></button>
 		</div>
 
 	</body>
