@@ -1,3 +1,5 @@
+
+
 window.onload = function() {
 
 	function printTime() {
@@ -114,15 +116,29 @@ window.onload = function() {
 		// Inject element with value
 		document.getElementById('day').innerHTML = day;
 		document.getElementById('datum').innerHTML = datum + ' ' + month + ' ' + year;
+
 	}
 
-
-	// Set function timer
+	// Set Function Timers
 	setTimeout(printTime, 1);
 	setInterval(printTime, 1000);
 
 	setTimeout(printDay, 1);
-	setInterval(printDay, 1000);
-
+	setInterval(printDay, 1000);	
 
 };
+
+function changeTheme(color) {
+		var	colorClass 	= color;
+
+		if(colorClass == undefined)		 {
+			colorClass = 'green';
+		} else {
+			colorClass = color;
+		}
+		document.getElementById('overall').className = '';
+		document.getElementById('overall').className += colorClass;
+}
+
+// Set Function Timers
+setTimeout(changeTheme,1);
