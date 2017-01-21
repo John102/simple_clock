@@ -38,10 +38,10 @@ window.onload = function() {
 		if(datum == 1 || datum == 21 || datum == 31) {
 			datum = datum + 'st';
 		}
-		if(datum == 2 || datum == 22) {
+		else if(datum == 2 || datum == 22) {
 			datum = datum + 'nd';
 		}
-		if(datum == 3 || datum == 23) {
+		else if(datum == 3 || datum == 23) {
 			datum = datum + 'rd';
 		}
 		else {
